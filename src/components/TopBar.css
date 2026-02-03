@@ -7,10 +7,32 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.top-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .top-bar-title {
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
+}
+
+.guest-badge {
+  padding: 4px 8px;
+  background: rgba(255, 215, 0, 0.2);
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 12px;
+  font-size: 11px;
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .stardust {
@@ -23,4 +45,20 @@
 .stardust span {
   color: #ffd700;
   font-weight: bold;
+}
+
+.logout-button {
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logout-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
 }
